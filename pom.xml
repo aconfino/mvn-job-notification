@@ -4,18 +4,36 @@
 	<parent>
 		<groupId>org.jenkins-ci.plugins</groupId>
 		<artifactId>plugin</artifactId>
-		<version>1.480.3</version><!-- which version of Jenkins is this plugin 
-			built against? -->
+		<version>1.480.3</version>
 	</parent>
 
 	<groupId>com.confino</groupId>
 	<artifactId>job-notifier</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>hpi</packaging>
-	 <licenses>MIT</licenses>
-	 
-	 <description>Sends JSON notification of Jenkins job information and
-	 GAV information if it is a Maven project.</description>
+
+	<name>Job Notification Plugin</name>
+	<description>Sends JSON notification of Jenkins job information and GAV information if it is a Maven project.</description>
+
+	<licenses>
+		<license>
+			The MIT License (MIT)
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:git://github.com/aconfino/mvn-job-notification.git</connection>
+		<developerConnection>scm:git:git@github.com/aconfino/mvn-job-notification.git</developerConnection>
+		<url>https://github.com/aconfino/mvn-job-notification</url>
+	</scm>
+	
+	<developers>
+		<developer>
+			<name>Adam Confino</name>
+			<email>aconfino@gmail.com</email>
+		</developer>
+	</developers>
+
 
 	<!-- get every artifact through repo.jenkins-ci.org, which proxies all the 
 		artifacts that we need -->
