@@ -17,7 +17,7 @@
 
 	<licenses>
 		<license>
-			The MIT License (MIT)
+			<name>The MIT License (MIT)</name>
 		</license>
 	</licenses>
 
@@ -33,7 +33,6 @@
 			<email>aconfino@gmail.com</email>
 		</developer>
 	</developers>
-
 
 	<!-- get every artifact through repo.jenkins-ci.org, which proxies all the 
 		artifacts that we need -->
